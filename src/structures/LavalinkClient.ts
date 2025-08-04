@@ -31,7 +31,6 @@ export default class LavalinkClient extends LavalinkManager {
           autoPlayFunction,
         },
       },
-      autoMove: true,
     });
     this.client = client;
   }
