@@ -10,6 +10,7 @@
 		"db:migrate": "npx prisma migrate dev --name init",
 		"build": "tsup",
 		"lint": "biome check",
+        "test": "node --test",
 		"format": "biome format --write"
 	},
 	"repository": {
